@@ -12,8 +12,23 @@ const leer = require("prompt-sync")();
 
 
 function main() {
-    
-}
-
+    let nombreHechizo="def hechizo"
+    for (let i = 0; i > 5; i++) {
+        console.log("Ingrese el nombre del hechizo correctamente");
+        nombreHechizo=leer();
+        if (nombreHechizo=="Alohomora") {
+            console.log("Felicitaciones ingresaste correctamente el nombre del hechizo");
+            i=5
+        }   else if (nombreHechizo=="Patronus") {
+            console.log("Felicitaciones ingresaste correctamente el nombre del hechizo");
+            i=5
+            }else if (nombreHechizo=="Leviosa"){;
+            console.log("Felicitaciones ingresaste correctamente el nombre del hechizo");
+            i=5   
+        }      else{  
+               console.log("Segui intentando");   
+            
+        }}} 
+        
 
 main();

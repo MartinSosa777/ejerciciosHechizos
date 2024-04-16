@@ -10,25 +10,25 @@ const leer = require("prompt-sync")();
  * Extra: permitir que el programa acepte 3 hechizos diferentes
  */
 
-
 function main() {
-    let nombreHechizo="def hechizo"
-    for (let i = 0; i > 5; i++) {
+    for (let i = 0; i < 5; i++) {
+        let nombreHechizo="Patronus"
+        let otroHechizo="Alohomora"
+        let difHechizo="Leviosa"
+        let nombreHechizoUsuario="def hechizo"
         console.log("Ingrese el nombre del hechizo correctamente");
-        nombreHechizo=leer();
-        if (nombreHechizo=="Alohomora") {
+        nombreHechizoUsuario=leer();
+         if (nombreHechizoUsuario==nombreHechizo) {;
             console.log("Felicitaciones ingresaste correctamente el nombre del hechizo");
             i=5
-        }   else if (nombreHechizo=="Patronus") {
+        }   else if (nombreHechizoUsuario==otroHechizo) {
             console.log("Felicitaciones ingresaste correctamente el nombre del hechizo");
             i=5
-            }else if (nombreHechizo=="Leviosa"){;
-            console.log("Felicitaciones ingresaste correctamente el nombre del hechizo");
-            i=5   
-        }      else{  
-               console.log("Segui intentando");   
-            
-        }}} 
-        
-
-main();
+        }else if (nombreHechizoUsuario==difHechizo) {
+                console.log("Felicitaciones ingresaste correctamente el nombre del hechizo");
+            i=5
+            }
+            else
+            console.log("Segui intentando");   
+            }}
+main(); 

@@ -21,8 +21,22 @@ const leer = require("prompt-sync")();
  * 
  */
 
-
+const SANGUIJUELAS_REV=3;
+const PULVERIZADO_DE_CUERNO=5;
+const PELO_DE_GATO=1;
+const COLAS_DE_SERPIENTES=2;
 function main() {
+let sanguijelasRev=SANGUIJUELAS_REV
+let pulverizadoCuerno=PULVERIZADO_DE_CUERNO
+let peloGato=PELO_DE_GATO
+let colaSerpiente=COLAS_DE_SERPIENTES
+
+for (let  i= 0; i < 5; i++) {
+    console.log("Agrega a la pocion las sanguijelas reventadas");
+    
+    
+}
+
 
 }
 

@@ -32,14 +32,13 @@ function main() {
         hechizoIngresado=leer()
         if (hechizoIngresado==hechizoCorrecto) {
             console.log("Acertaste el hechizo, el daño fue",dañoHechizoCertero);
-           /* resultado=vidaMaxDem-dañoHechizoCertero */
            vidaDem=vidaDem-dañoHechizoCertero
             console.log("La vida del dementor actualmente es",vidaDem);
 
         }else{
         console.log("Fallo");
-        resultado2=vidaMaxEst-dañoTurnoPerdido
-        console.log("El dementor te ataco, tu vida actual es",resultado2);
+        vidaMaxEst=vidaMaxEst-dañoTurnoPerdido
+        console.log("El dementor te ataco, tu vida actual es",vidaMaxEst);
 
         
     }}
